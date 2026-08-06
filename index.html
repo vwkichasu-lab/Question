@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Technology Trial Questions</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+    <header>
+
+        <h1>WEB TECHNOLOGY DEVELOPMENT</h1>
+
+        <p>Interactive Trial Questions</p>
+
+    </header>
+
+    <!-- Progress -->
+    <div class="progress">
+
+        <span id="questionNo">Question 1 of 6</span>
+
+    </div>
+
+    <!-- Flip Card -->
+    <div class="card-container">
+
+        <div class="flip-card" id="flipCard">
+
+            <div class="flip-card-inner">
+
+                <!-- FRONT -->
+                <div class="flip-card-front">
+
+                    <i class="fa-solid fa-file-lines icon"></i>
+
+                    <h2>QUESTION 1</h2>
+
+                    <p>Click anywhere to reveal the question.</p>
+
+                </div>
+
+                <!-- BACK -->
+                <div class="flip-card-back">
+
+                    <div id="questionText"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Buttons -->
+    <div class="buttons">
+
+        <button id="prevBtn">
+
+            <i class="fa-solid fa-arrow-left"></i>
+
+            Previous
+
+        </button>
+
+        <button id="flipBtn">
+
+            <i class="fa-solid fa-rotate"></i>
+
+            Flip Card
+
+        </button>
+
+        <button id="nextBtn">
+
+            Next
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </button>
+
+    </div>
+
+    <!-- Dots -->
+    <div class="dots">
+
+        <span class="dot active"></span>
+
+        <span class="dot"></span>
+
+        <span class="dot"></span>
+
+        <span class="dot"></span>
+
+        <span class="dot"></span>
+
+        <span class="dot"></span>
+
+    </div>
+
+</div>
+
+<!-- ===========================
+     QUESTIONS
+============================ -->
+
+<script>
+
+const questions = [
+
+`<h2>QUESTION 1</h2>
+
+<p>
+
+A restaurant wants to create a website where customers can view the restaurant's name, logo, menu, opening hours, location, and contact details.
+
+<br><br>
+
+Design a simple wireframe for the webpage, create the HTML structure using appropriate HTML tags, and write CSS to give the page a modern and responsive design.
+
+<br><br>
+
+Finally, explain the difference between block-level and inline HTML elements with suitable examples.
+
+</p>`,
+
+`<h2>QUESTION 2</h2>
+
+<p>
+
+A school wants to create an online student registration form where students can enter their full name, student ID, programme, level, email address, and phone number.
+
+<br><br>
+
+Draw a flowchart showing how the registration process works.
+
+<br><br>
+
+Design the HTML form.
+
+<br><br>
+
+Write CSS to make it attractive and responsive.
+
+<br><br>
+
+Explain the difference between internal, external and inline CSS.
+
+</p>`,
+
+`<h2>QUESTION 3</h2>
+
+<p>
+
+A library wants to develop a webpage that displays a list of books available for borrowing.
+
+<br><br>
+
+Design the HTML structure to display the books in cards.
+
+<br><br>
+
+Write CSS to style the cards in a neat layout.
+
+<br><br>
+
+Finally, explain any ten HTML tags with suitable examples.
+
+</p>`,
+
+`<h2>QUESTION 4</h2>
+
+<p>
+
+A shopping website wants to display different products with their names, images, prices and descriptions.
+
+<br><br>
+
+Design the HTML structure for the product page.
+
+<br><br>
+
+Write CSS to create a responsive product layout with hover effects.
+
+<br><br>
+
+Explain the purpose of the following CSS selectors with examples:
+
+Element Selector
+
+Class Selector
+
+ID Selector
+
+Descendant Selector
+
+Child Selector
+
+Attribute Selector
+
+Pseudo-class Selector
+
+Pseudo-element Selector
+
+Adjacent Sibling Selector
+
+General Sibling Selector
+
+</p>`,
+
+`<h2>QUESTION 5</h2>
+
+<p>
+
+A university wants to create a webpage to display information about its academic programmes.
+
+<br><br>
+
+The webpage should include the university logo, name, navigation menu, list of programmes, admission requirements and contact information.
+
+<br><br>
+
+Draw a simple wireframe.
+
+<br><br>
+
+Write the HTML5 code.
+
+<br><br>
+
+Write responsive CSS suitable for desktop and mobile devices.
+
+</p>`,
+
+`<h2>QUESTION 6</h2>
+
+<p>
+
+A hospital wants to create a webpage that allows visitors to view information about its departments and doctors.
+
+<br><br>
+
+The webpage should display the hospital name, logo, departments, doctors' profiles, working hours and contact details.
+
+<br><br>
+
+Design the HTML structure.
+
+<br><br>
+
+Write CSS code to arrange the doctors' profiles in responsive cards with suitable colours, spacing, borders and hover effects.
+
+<br><br>
+
+Explain the purpose of the following HTML tags with suitable examples:
+
+&lt;header&gt;
+
+&lt;nav&gt;
+
+&lt;section&gt;
+
+&lt;article&gt;
+
+&lt;footer&gt;
+
+</p>`
+
+];
+
+</script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
