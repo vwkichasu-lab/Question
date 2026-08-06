@@ -579,7 +579,9 @@ transform:translateY(0);
 
 width:100%;
 
-height:600px;
+height:520px;
+
+min-height:430px;
 
 }
 
@@ -615,7 +617,9 @@ padding:20px;
 
 .flip-card{
 
-height:650px;
+height:470px;
+
+min-height:400px;
 
 }
 
@@ -653,7 +657,9 @@ flex-direction:column;
 
 .flip-card{
 
-height:700px;
+height:430px;
+
+min-height:360px;
 
 }
 
