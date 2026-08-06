@@ -313,7 +313,7 @@ transform:translateY(0px);
 
 .flip-card-front h2{
 
-font-size:42px;
+font-size:clamp(28px, 3.2vw, 42px);
 
 margin-bottom:20px;
 
@@ -321,7 +321,7 @@ margin-bottom:20px;
 
 .flip-card-front p{
 
-font-size:22px;
+font-size:clamp(16px, 1.8vw, 22px);
 
 text-align:center;
 
@@ -367,7 +367,7 @@ border-radius:10px;
 
     width:100%;
 
-    font-size:20px;
+    font-size:clamp(14px, 1.2vw, 20px);
 
     line-height:1.9;
 
@@ -385,7 +385,7 @@ border-radius:10px;
 
     color:var(--card-accent, #ffeb3b);
 
-    font-size:34px;
+    font-size:clamp(20px, 2.2vw, 34px);
 
 }
 
@@ -670,7 +670,7 @@ margin-bottom:16px;
 
 .flip-card-front h2{
 
-font-size:24px;
+font-size:clamp(20px, 3vw, 24px);
 
 margin-bottom:12px;
 
@@ -678,13 +678,13 @@ margin-bottom:12px;
 
 .flip-card-front p{
 
-font-size:16px;
+font-size:clamp(14px, 2vw, 16px);
 
 }
 
 #questionText{
 
-font-size:13px;
+font-size:clamp(12px, 1.8vw, 14px);
 
 line-height:1.4;
 
@@ -692,7 +692,7 @@ line-height:1.4;
 
 #questionText h2{
 
-font-size:20px;
+font-size:clamp(16px, 2.6vw, 20px);
 
 margin-bottom:10px;
 
@@ -749,19 +749,19 @@ margin-bottom:12px;
 
 .flip-card-front h2{
 
-font-size:22px;
+font-size:clamp(18px, 4vw, 22px);
 
 }
 
 .flip-card-front p{
 
-font-size:15px;
+font-size:clamp(13px, 3.4vw, 15px);
 
 }
 
 #questionText{
 
-font-size:12px;
+font-size:clamp(11px, 3vw, 12px);
 
 line-height:1.35;
 
@@ -769,7 +769,7 @@ line-height:1.35;
 
 #questionText h2{
 
-font-size:18px;
+font-size:clamp(15px, 3.8vw, 18px);
 
 }
 
